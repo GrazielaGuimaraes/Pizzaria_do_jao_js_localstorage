@@ -1,0 +1,198 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+html {
+    
+    scroll-behavior: smooth;
+}
+
+body {
+    
+    font-family: cursive;
+}
+
+header {
+    
+    height: 100vh;
+    background-color: #000;
+}
+
+#cabecalho {
+    
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 15px;
+}
+
+ 
+#cabecalho #logotipo{
+    
+    color: #fff;
+    font-size: 48px;
+}
+
+#cabecalho ul {
+    display: flex;
+    list-style: none;
+}
+
+
+#cabecalho ul li {
+    padding: 10px;
+}
+
+#cabecalho ul li a {
+color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+    transition: 0.4s
+}
+
+
+#cabecalho ul li a:hover {
+    
+    color: darkred;
+} 
+
+/******************************************/
+
+.principal {
+    
+  
+   display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 80vh;
+   
+}
+
+.principal h1 {
+    color: #fff;
+    font-size: 64px;
+    margin-bottom: 10px;
+}
+
+
+.principal a {
+    
+    color: #fff;
+    background-color: brown;
+    padding: 10px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 18px;
+     transition: 0.4s
+}
+
+.principal a:hover {
+    
+    background-color: darkred;
+}
+
+
+.footer {
+    height: 5vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+     padding: 10px;
+}
+
+.footer-redes {
+    
+    
+    width: 100%;
+    text-align: end;
+   
+}
+
+
+.footer-redes a {
+    
+    text-decoration: none;
+    color: darkgray;
+     font-size: 24px;
+    padding: 5px;
+     transition: 0.4s
+}
+
+.footer-redes a:hover {
+    
+    color: darkred;
+}
+
+
+/***************************/
+.principal-pedido {
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+    
+}
+
+.principal-pedido label {
+    
+    color: #fff;
+}
+
+.principal-pedido select {
+    
+    width: 100%;
+    padding: 15px;
+    border-radius: 5px;
+}
+
+.principal-pedido .btn {
+    
+    margin-top: 10px;
+    padding: 15px;
+    border-radius: 5px;
+     background-color: darkred;
+    color: #fff;
+    
+}
+
+/***************************/
+.principal-cardapio {
+    
+     display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 80vh;
+ 
+}
+
+.principal-cardapio .cards {
+    
+    display: flex;
+    justify-content: center;
+    width: 100%;
+   
+    
+}
+
+.principal-cardapio .card {
+    
+    width: 25%;
+    height: 100%;
+    color: #fff;
+    margin: 15px;
+}
+
+
+
+.principal-cardapio .card img {
+    width: 250px;
+    height: 150px;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+
+
